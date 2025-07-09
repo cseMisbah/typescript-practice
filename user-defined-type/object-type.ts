@@ -17,5 +17,12 @@ let user2: { userName: string; userId: number };
 user2 = { userName: "Habib", userId: 23 };
 
 // if we want any property of an object then we can use question marks (?) for that
-let user4: { userName: string; userId?: number };
-user4 = { userName: "Habib" };
+//let user4: { userName: string; userId?: number };
+//user4 = { userName: "Habib" };
+
+let users = [];
+let user1: { userName: string; userId: number };
+user1 = { userName: "kattor", userId: 234 };
+users.push(user1);
+
+console.log(users);
